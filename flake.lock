@@ -1,0 +1,60 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1622445595,
+        "narHash": "sha256-m+JRe6Wc5OZ/mKw2bB3+Tl0ZbtyxxxfnAWln8Q5qs+Y=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "7d706970d94bc5559077eb1a6600afddcd25a7c8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1629346024,
+        "narHash": "sha256-9eAyyO3dR2L5HcQS3g5cRLR7unWM/5mKwbfEp2hH4lY=",
+        "ref": "release-21.05",
+        "rev": "c7315b77efd33429f432117a98c2ba958f088cfa",
+        "revCount": 294012,
+        "type": "git",
+        "url": "file:///nix/nixpkgs"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "release-21.05",
+        "type": "indirect"
+      }
+    },
+    "opencti-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1623353306,
+        "narHash": "sha256-G+APVv631teQZLLPSGItqUmXLdDePWMxnzi3MVtAVTI=",
+        "owner": "OpenCTI-Platform",
+        "repo": "opencti",
+        "rev": "bd5d389edd65b821fa15854cb0bb6cffaf8832bc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "OpenCTI-Platform",
+        "repo": "opencti",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "opencti-src": "opencti-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
